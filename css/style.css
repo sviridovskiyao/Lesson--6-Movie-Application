@@ -1,0 +1,23 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1a191f;
+    font-family: "Open Sans", sans-serif;
+}
+
+.conteiner {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    height: 60px;
+}

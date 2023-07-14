@@ -10,11 +10,29 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
+    <header class="header">
+        <div class="header-content">
+            <a href="index.html" class="header_logo">Tony's Moive App</a>
+        </div>
+        <form> 
+            <input type="text" class="header_search" placeholder="Поиск">
+        </form>
+    </header>
     <div class="container">
-        <h2> Svirid's color:
-            <span class="color">#fff222</span>
-        </h2>
-        <button id="btn" class="btm">Сменить цвет</button>
+        <div class="movies">
+            <div class="movie">
+                <div class="movie_cover-inner">
+                    <img src="https://avatars.mds.yandex.net/get-ott/224348/2a00000188533eaba8eef9dd5355e7dead19/292x440" 
+                    class="movie_cover">
+                    <div class="movie_cover--darkened"></div>
+                </div>
+                <div class="movie_info">
+                    <div class="movie_title">John Wick 4</div>
+                    <div class="movie_category"></div>
+                    <div class="movie_average movie_average--green"></div>
+                </div>
+            </div>
+        </div> 
     </div>
     <script src="/js/app.js"></script>
 </body>
